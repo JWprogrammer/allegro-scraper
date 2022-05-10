@@ -13,6 +13,5 @@
       "homepage": "https://www.parser.best/en/allegro-scraper-extractor.php"
     }
   ],
-  "minimum-stability": "stable",
   "require": {}
 }
