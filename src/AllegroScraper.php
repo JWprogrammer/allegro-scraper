@@ -13,6 +13,8 @@ namespace AllegroScraper;
 
 class AllegroScraper
 {
+    const VERSION = "5.1.1";
+
     private string $db_host;
     private string $db_name;
     private string $db_user;
@@ -91,6 +93,7 @@ class AllegroScraper
     {
         $parameters['api_key'] = $this->remote_api_key;
         $parameters['method'] = $method;
+        $parameters['version'] = self::VERSION;
         $curl = curl_init();
         curl_setopt_array($curl, [
             CURLOPT_URL => $this->remote_uri . '?' . http_build_query($parameters),
@@ -100,7 +103,7 @@ class AllegroScraper
             CURLOPT_TIMEOUT => 360,
             CURLOPT_FOLLOWLOCATION => true,
             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-            CURLOPT_USERAGENT => $_SERVER['HTTP_HOST'],
+            CURLOPT_USERAGENT => $_SERVER['HTTP_HOST'] ?? '',
             CURLOPT_CUSTOMREQUEST => 'GET',
             CURLOPT_SSL_VERIFYHOST => false,
             CURLOPT_SSL_VERIFYPEER => false
