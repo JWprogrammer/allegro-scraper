@@ -13,5 +13,7 @@
       "homepage": "https://www.parser.best/en/allegro-scraper-extractor.php"
     }
   ],
-  "require": {}
+  "require": {
+    "php" : "7.4"
+  }
 }
