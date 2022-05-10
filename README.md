@@ -14,5 +14,33 @@ Other people's Allegro scrapers have stopped working, but this parser continues 
 The data scraper can work "on the fly", that is, it can extract data from Allegro in real time when a request is made (from the point of view of your site, when a user visits some page). This ensures 100% data relevance and reduces the load on the server.
 Also, this Allegro crawler can be used to constantly scraping all the products, that is, saving and updating a full catalog of products. 
 
-## Use examples
+## Installation
+1) Install the scraper on your server. To do this, please contact: https://t.me/JWprogrammer
+2) Use the crawler in your project. Simply add the library to the project via the composer dependencies:
+```
+composer require jwprogrammer/allegro-scraper
+```
 
+## Use examples
+```
+$allegro = new \AllegroScraper\AllegroScraper();
+
+$result = $allegro->search([
+    'page' => 1,
+    'query' => 'Led halogen lampa',
+    'category' => 'czesci-samochodowe-620',
+    'order' => 'pd'
+]);
+if ($result->success) {
+    $result->totalCount;
+    foreach ($result->products as $product) {
+        $product->id;
+        $product->url;
+        $product->title;
+        $product->price;
+        $product->price_with_delivery;
+        $product->mainThumbnail;
+        $product->mainImage;
+    }
+}
+```
