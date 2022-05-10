@@ -1,0 +1,17 @@
+{
+  "name": "jwprogrammer/allegro-scraper",
+  "description": "Contact: https://t.me/JWprogrammer  \nExtractor (scraper, crawler, parser) of products from Allegro. \nIt receives the search output of Allegro.pl, as well as detailed information about the products.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "AllegroScraper\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Telegram: @JWprogrammer",
+      "homepage": "https://www.parser.best/en/allegro-scraper-extractor.php"
+    }
+  ],
+  "require": {}
+}
