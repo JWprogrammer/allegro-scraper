@@ -21,8 +21,10 @@ Also, this Allegro crawler can be used to constantly scraping all the products, 
 composer require jwprogrammer/allegro-scraper
 ```
 
-## Use examples
-```
+## Usage examples
+```PHP
+require __DIR__ . '/vendor/autoload.php';
+
 $allegro = new \AllegroScraper\AllegroScraper();
 
 $result = $allegro->search([
@@ -43,4 +45,14 @@ if ($result->success) {
         $product->mainImage;
     }
 }
+```
+
+```PHP
+$allegro = new \AllegroScraper\AllegroScraper();
+
+$result = $allegro->details([
+    'product_id' => 11437180475
+]);
+
+print_r($result); //All information about this product
 ```
