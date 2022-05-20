@@ -56,7 +56,7 @@ $result = $allegro->details([
     'product_id' => 11437180475
 ]);
 
-print_r($result); //ALL information about this product
+print_r($result); //ALL INFORMATION about this product
 ```
 
 ## Full documentation with all methods, parameters, filters and fields
