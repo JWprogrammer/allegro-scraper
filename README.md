@@ -1,6 +1,6 @@
-## Extractor (scraper, crawler) of products from Allegro (2021)
+## Extractor (scraper, crawler) of products from Allegro (2022)
 
-#### ✅ ***Actual in 2021!***
+#### ✅ ***Actual in 2022!***
 #### It receives the search output of Allegro.pl, as well as detailed information about the products
 
 #### To buy the project, please contact: https://t.me/JWprogrammer
