@@ -3,7 +3,7 @@
 #### ✅ ***Actual in 2022!***
 #### It receives the search output of Allegro.pl, as well as detailed information about the products
 
-#### To buy the project, please contact: https://t.me/JWprogrammer
+#### To start use the project, please contact: https://t.me/JWprogrammer
 
 ## Description
 We offer you a ready-made extractor of products from Allegro. It receives the search output of Allegro.pl, as well as detailed information about the goods.
@@ -60,4 +60,4 @@ print_r($result); //ALL INFORMATION about this product
 
 ## Full documentation with all methods, parameters, filters and fields
 ### We will provide you with full documentation.
-### To buy the project, please contact: https://t.me/JWprogrammer
+### To start use the project, please contact: https://t.me/JWprogrammer
