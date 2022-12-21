@@ -4,7 +4,6 @@
 #### It receives the search output of Allegro.pl, as well as detailed information about the products
 
 #### To buy the project, please contact: https://t.me/JWprogrammer
-#### The program is a paid solution. You buy the whole scraper program and it will work all the time on your server and work directly with Allegro.pl (no third-party databases or APIs are used), so you won't need to make any subscription fees.
 
 ## Description
 We offer you a ready-made extractor of products from Allegro. It receives the search output of Allegro.pl, as well as detailed information about the goods.
