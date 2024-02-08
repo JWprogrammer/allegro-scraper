@@ -13,7 +13,7 @@ namespace AllegroScraper;
 
 class AllegroScraper
 {
-    const VERSION = "5.1.1";
+    const VERSION = "6.3";
 
     private string $db_host;
     private string $db_name;
