@@ -12,8 +12,5 @@
       "name": "Telegram: @JWprogrammer",
       "homepage": "https://www.parser.best/en/allegro-scraper-extractor.php"
     }
-  ],
-  "require": {
-    "php" : "7.4.*"
-  }
+  ]
 }
