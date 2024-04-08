@@ -1,5 +1,6 @@
 ## Extractor (scraper, crawler) of products from Allegro (2024)
-## It is also available as API for all programming languages
+
+### It is also available as API for _all programming languages_ (Javascript, Python, Go, Java, Kotlin, PHP, C#, Swift, R, Ruby, C, C++, Rust, Perl and others)
 
 #### ✅ ***Actual in 2024!***
 #### It receives the search output of Allegro.pl, as well as detailed information about the products
@@ -57,6 +58,25 @@ $result = $allegro->details([
 ]);
 
 print_r($result); //ALL INFORMATION about this product
+
+$product->id;
+$product->title;
+$product->url;
+$product->active;
+$product->availableQuantity;
+$product->price;
+$product->price_with_delivery;
+$product->seller;
+$product->rating;
+$product->buyers;
+$product->delivery_options;
+$product->currency;
+$product->category_path;
+$product->specifications;
+$product->images;
+$product->description;
+$product->reviews;
+$product->compatibility;
 ```
 
 ## Full documentation with all methods, parameters, filters and fields
