@@ -1,4 +1,5 @@
 ## Extractor (scraper, crawler) of products from Allegro (2024)
+## It is also available as API for all programming languages
 
 #### ✅ ***Actual in 2024!***
 #### It receives the search output of Allegro.pl, as well as detailed information about the products
