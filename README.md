@@ -1,9 +1,9 @@
-## Extractor (scraper, crawler) of products from Allegro (2024)
+## Extractor (scraper, crawler) of products from Allegro (2025)
 
 
 ### It is also available as API for _all programming languages_ <br> (Javascript, Python, Go, Java, Kotlin, PHP, C#, Swift, R, Ruby, C, C++, Rust, Perl and others)
 
-#### ✅ ***Actual in 2024!***
+#### ✅ ***Actual in 2025!***
 #### It receives the search output of Allegro.pl, as well as detailed information about the products
 
 #### To start use the project, please contact: https://t.me/JWprogrammer
